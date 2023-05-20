@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 
 
+:root {
+   /* change the values below to your chosen font(s) */
+  --heading-font: "Rock Salt";
+  --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
+/*font-family: var(--paragraph-font);*/
 
 
+.home-title {
+    /*font-family: var(--heading-font);*/
+    font-family: 'Rock Salt', 'Helvetica', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 
+}
+.msg {
+    background-color: #C8C8DD; 
+    /*font-family: var(--heading-font);*/
+    font-family: 'Rock Salt', 'Helvetica', 'sans-serif';
+    line-height: 1.5em;
+    padding: 35px;
+
+}
 .msg p {
     font-size: .8em;
     padding-bottom: 15px;
@@ -108,7 +130,9 @@ footer, .social, img {
     margin: 200px 0;
 }
 
-
+.card-img {
+    border: 10px solid #d9c2a3;
+}
 
 main section img {
     box-sizing: border-box;
